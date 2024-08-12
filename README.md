@@ -7,6 +7,16 @@ AnoPlib is written in C++, other ports may follow. It is available under the [BS
 
 Why have I started this? I needed some way for thin, fast handling of small openGL-animations. Think of showing radio propagation in a traffic simulation with several hundreds or thousands of vehicles. Would be pretty ugly to have code bloat here.
 
+<!-- imgs begin -->
+<img src="https://github.com/dkrajzew/tempo120/blob/main/gfx/anop_emergency1.png" width="40%"/>
+<img src="https://github.com/dkrajzew/tempo120/blob/main/gfx/anop_signal1.png" width="40%"/>
+<img src="https://github.com/dkrajzew/tempo120/blob/main/gfx/anop_starfield1" width="40%"/>
+<img src="https://github.com/dkrajzew/tempo120/blob/main/gfx/anop_tentacle1" width="40%"/>
+<img src="https://github.com/dkrajzew/tempo120/blob/main/gfx/anop_wave1" width="40%"/>
+<img src="https://github.com/dkrajzew/tempo120/blob/main/gfx/anop_wireless1" width="40%"/>
+<!-- imgs end -->
+
+
 ## Idea; less brief
 
 There are several particles implementations. Particles are generated, fall or move, disappear after a while and are regenerated. All in all very nice. Though, what I needed, is something that controls a set of small animated objects; each animation may contain a movement, but this is not mandatory. Because a larger number of such animations shall be rendered, each animation should be rendered fast. The complete "system" must control animations.
